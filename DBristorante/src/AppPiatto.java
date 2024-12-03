@@ -12,6 +12,9 @@ public class AppPiatto
         
         System.out.println("Numero nel menù: ");
         Byte numeroMenù = sc.nextByte();
+
+        System.out.println("Tipologia: ");
+        Byte tipologia = sc.nextByte();
         
         sc.nextLine();
         
@@ -28,6 +31,7 @@ public class AppPiatto
 
         System.out.println("Sezione nel menù: " + sezioneMenù);
         System.out.println("Numero nel menù: " + numeroMenù);
+        System.out.println("Tipologia: " + tipologia);
         System.out.println("Nome del piatto: " + nome);
         System.out.println("Descrizione: " + descrizione);
         System.out.println("Prezzo: " + prezzo + "€");
